@@ -1,0 +1,112 @@
+
+
+.getusers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: transparent; 
+  }
+  
+  .getusers-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .getusers-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .getusers-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  .getusers-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .getusers-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  }
+  
+  .getusers-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .getusers-button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 600px) {
+    .getusers-form {
+      padding: 20px;
+    }
+    
+    .getusers-title {
+      font-size: 20px;
+    }
+  }
+  /* أضف هذه الفئات الجديدة */
+.user-profile {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .profile-detail {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .detail-label {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .detail-value {
+    color: #34495e;
+  }
+  
+  .getusers-error {
+    color: #e74c3c;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #fdeded;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  
